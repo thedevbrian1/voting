@@ -36,6 +36,9 @@ function Home() {
             </svg>
             <span className="text-white">Log In</span>
           </Link>
+          <div className="mt-4">
+            <Link to="/voting" className="underline hover:text-indigo-500 transition ease-in-out duration-300">Proceed without logging in</Link>
+          </div>
         </div>
       </div>
     </div>
